@@ -16,23 +16,23 @@ PHP (phpMyAdmin for database management)
 
 Hardware Requirements:
 
-A raspberry Pi 3b+ was used for this project along witht he necessary RFID components which enable the Raspbverry Pi to interact with the RFID Module.
+A raspberry Pi 3b+ was used for this project along with the necessary RFID components which enable the Raspbverry Pi to interact with the RFID Module.
 
 
-Potentiometer A variable resistor used to control the LCD 
-screen brightness and contrast levels 
+Potentiometer A variable resistor used to control the LCD,
+screen brightness and contrast levels, 
 LCD Screen (Liquid Crystal Display) The LCD screen is 16x2 size (16 characters
-in 2 lines). Module programmed to display 
+in 2 lines)., Module programmed to display 
 text output to the order picker to aid with 
-picking tasks.
+picking tasks,
 RFID MFRC522 13.56MHz module used to read and write 
-data to RFID tags. The primary component 
+data to RFID tags (The primary component 
 used to replicate an RFID scanner 
-functionality
+functionality),
 RFID Tags Passive tags (power supplied by RFID 
 MFRC522 reader) which are attached to 
-items; each item is uniquely identified.
-Figure 7: Hardware Architecture26
+items; each item is uniquely identified,
+
 Raspberry Pi 3b+ Small computer which has GPIO (General 
 Purpose Input/Output) pins to install the 
 hardware components. Used to replicate a 
@@ -42,11 +42,11 @@ Display Monitor Used to remotely access the Raspberry Pi Interface
 
 # Functional Requirements 
 
-FR001 Reading RFID tags for order items 
-FR002 Writing data to RFID tags for items 
-FR003 Storing data for the RFID tags
+FR001 Reading RFID tags for order items, 
+FR002 Writing data to RFID tags for items, 
+FR003 Storing data for the RFID tags,
 FR004 Provide a visual interface for order picker to follow 
-commands
-FR005 Provide a visual interface to view items and location 
+commands,
+FR005 Provide a visual interface to view items and location, 
 FR006 The system should allow new item entries to be made and be 
-allocated an RFID tag
+allocated an RFID tag,

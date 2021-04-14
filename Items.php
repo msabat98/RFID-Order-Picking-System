@@ -1,7 +1,7 @@
 <?php
 require 'common.php';
 
-//Grab all the items  from our database
+//Grab all the items  from our database of order items
 $items = $database->select("items", [
     'id',
     'name',
@@ -15,6 +15,7 @@ $items = $database->select("items", [
 
 ?>
 <!DOCTYPE html>
+//front end webpage for displaying order data
 <html lang="en">
     <head>
         <title>Order Picking System</title>
